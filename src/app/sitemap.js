@@ -1,8 +1,8 @@
 export default async function sitemap() {
   return [
-    { url: `https://nj-spotlesscleaners.com/` },
-    { url: `https://nj-spotlesscleaners.com/about` },
-    { url: `https://nj-spotlesscleaners.com/service` },
-    { url: `https://nj-spotlesscleaners.com/location` },
+    { url: `https://spotlesscleaners-nj.com/` },
+    { url: `https://spotlesscleaners-nj.com/about` },
+    { url: `https://spotlesscleaners-nj.com/service` },
+    { url: `https://spotlesscleaners-nj.com/location` },
   ];
 }

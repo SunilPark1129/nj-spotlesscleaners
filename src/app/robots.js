@@ -6,6 +6,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://nj-spotlesscleaners.com/sitemap.xml",
+    sitemap: "https://spotlesscleaners-nj.com/sitemap.xml",
   };
 }
