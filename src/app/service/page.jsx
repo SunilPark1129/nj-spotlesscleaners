@@ -18,10 +18,10 @@ function page() {
       <div className={styles.title}>
         <Image
           src={"/cloth.jpg"}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill
-          sizes="100vw"
           alt="cloth material"
-          priority
+          priority={true}
         />
         <div className={styles.textContainer}>
           <h1>Service</h1>

@@ -10,7 +10,7 @@ function Banner() {
           sizes="(max-width: 2400px) 100vw, 2400px"
           fill
           alt="spotless cleaners building"
-          priority
+          priority={true}
         />
       </div>
     </div>

@@ -18,10 +18,10 @@ function page() {
       <div className={styles.title}>
         <Image
           src={"/quality.jpg"}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill
-          sizes="100vw"
           alt="zoom in quality"
-          priority
+          priority={true}
         />
         <div className={styles.textContainer}>
           <h1>About Us</h1>

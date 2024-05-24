@@ -17,10 +17,10 @@ function page() {
       <div className={styles.title}>
         <Image
           src={"/scl3.jpg"}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           fill
-          sizes="100vw"
           alt="spotless cleaners parking lot"
-          priority
+          priority={true}
         />
         <div className={styles.textContainer}>
           <h1>Location</h1>
