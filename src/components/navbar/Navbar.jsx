@@ -26,6 +26,10 @@ function Navbar() {
     };
   }, [hasOpened]);
 
+  useEffect(() => {
+    setHasOpened(false);
+  }, [pathname]);
+
   function handleResize() {
     const windowWidth = window.innerWidth;
     if (windowWidth >= 600 && !hasOpened) {

@@ -3,6 +3,7 @@ import styles from "./menu.module.css";
 import Image from "next/image";
 import { closeSVG } from "@/lib/svgData";
 import { layout } from "../layout";
+import { useEffect } from "react";
 
 function Menu({ setHasOpened, pathname }) {
   function closeClickHandler() {
@@ -16,7 +17,7 @@ function Menu({ setHasOpened, pathname }) {
       </div>
       <ul className={styles.links}>
         {layout.map(({ to, label }) => (
-          <li key={label} onClick={closeClickHandler}>
+          <li key={label}>
             <Link
               href={to}
               className={`${styles.link} ${pathname === to && styles.active}`}
@@ -26,7 +27,7 @@ function Menu({ setHasOpened, pathname }) {
           </li>
         ))}
       </ul>
-      <Link className={styles.logo} onClick={closeClickHandler} href={"/"}>
+      <Link className={styles.logo} href={"/"}>
         <Image src={"/logo.png"} width={200} height={50} alt="logo" priority />
       </Link>
     </div>
