@@ -14,6 +14,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  icons: {
+    icon: "/sq-logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
