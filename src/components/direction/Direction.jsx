@@ -15,7 +15,7 @@ function Direction() {
             Spotless Cleaners.
           </p>
           <Link href={"https://maps.app.goo.gl/RoVZjLAPD8mM21ug8"}>
-            {gpsSVG}
+            <div className={styles.svgContainer}>{gpsSVG}</div>
             Get Directions
           </Link>
         </div>

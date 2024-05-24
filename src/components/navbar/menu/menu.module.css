@@ -21,6 +21,11 @@
   cursor: pointer;
 }
 
+.close svg {
+  width: 100%;
+  height: 100%;
+}
+
 .close:hover svg {
   stroke: var(--clr-primary);
 }
