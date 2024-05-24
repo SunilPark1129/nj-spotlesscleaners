@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: rgb(65, 87, 56);
+}
+
+.cardTitle {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.5em;
+  margin-right: auto;
+}
+
+.cardDesc {
+  display: flex;
+  padding: 1em 1.5em;
+  border-radius: 12px;
+}
+
+.arrow {
+  width: 1.2em;
+  height: 1.2em;
+  flex-shrink: 0;
+}
+
+.arrow svg {
+  width: 100%;
+  height: 100%;
+  stroke: rgb(65, 87, 56);
+}
+
+.arrowActive {
+  transform: rotateX(180deg);
+}
+
+.highlighted span {
+  background-color: yellow;
+}
+
+@media (max-width: 500px) {
+  .cardTitle {
+    justify-content: space-between;
+    margin-right: inherit;
+  }
+
+  .cardDesc {
+    padding: 1em 1.5em;
+  }
+}

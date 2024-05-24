@@ -1,0 +1,49 @@
+.container {
+}
+
+.content {
+  max-width: var(--max-w-lg);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.textContainer h1 {
+  font-size: 3rem;
+}
+
+.textContainer span {
+  font-size: 10rem;
+  font-weight: bold;
+  color: var(--clr-primary);
+}
+
+.textContainer p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.link {
+  color: rgb(40, 40, 235);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .textContainer h1 {
+    font-size: 2rem;
+  }
+
+  .textContainer span {
+    font-size: 6rem;
+  }
+}

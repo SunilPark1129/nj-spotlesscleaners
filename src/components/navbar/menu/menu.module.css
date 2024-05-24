@@ -1,0 +1,50 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(232, 235, 232);
+  z-index: 999;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+
+.close:hover svg {
+  stroke: var(--clr-primary);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.link {
+  color: var(--clr-font-dark);
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 1rem;
+}
+
+.link:hover,
+.active {
+  color: var(--clr-primary);
+}
+
+.logo {
+  position: absolute;
+  bottom: 1rem;
+}

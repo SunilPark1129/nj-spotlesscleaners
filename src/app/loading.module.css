@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 4em);
+}
+
+.loadingContainer {
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  position: relative;
+}
+
+.loadingBar {
+  position: absolute;
+  border: 10px solid transparent;
+  width: 100%;
+  height: 100%;
+  border-color: rgba(65, 143, 69, 0.46) rgb(12, 112, 12) transparent transparent;
+  border-radius: 50%;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.loadingBar:nth-of-type(2) {
+  animation-delay: 0.1s;
+}
+
+.loadingBar:nth-of-type(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
