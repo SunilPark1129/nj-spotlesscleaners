@@ -18,7 +18,7 @@ function Story() {
         </div>
         <div className={styles.textContainer}>
           <p>
-            Welcome to Spotless Cleaners! Established in 2010 in Sewell, NJ,
+            Welcome to Spotless Cleaners! Established in 1996 in Sewell, NJ,
             Spotless Cleaners has been dedicated to providing top-notch service
             and quality to our customers. With a decade of experience, we pride
             ourselves on our commitment to excellence and customer satisfaction.

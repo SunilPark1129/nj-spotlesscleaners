@@ -7,7 +7,7 @@ import Image from "next/image";
 export const metadata = {
   title: "About",
   description:
-    "Learn about Spotless Cleaners' dedication to quality garment care, our experienced team, and our commitment to customer satisfaction since 2010.",
+    "Learn about Spotless Cleaners' dedication to quality garment care, our experienced team, and our commitment to customer satisfaction since 1996.",
   keywords:
     "Spotless Cleaners, about us, garment care, Sewell NJ, cleaning services, alteration services, customer satisfaction",
 };
