@@ -19,6 +19,9 @@ export const metadata = {
   icons: {
     icon: "/sq-logo.png",
   },
+  alternates: {
+    canonical: "./",
+  },
 };
 
 export default function RootLayout({ children }) {
