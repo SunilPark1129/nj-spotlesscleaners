@@ -13,7 +13,7 @@ export const metadata = {
     template: "%s | Spotless Cleaners Sewell NJ",
   },
   description:
-    "Welcome to Spotless Cleaners, your estination for top-quality dry cleaners in 1898 Hurffville Rd, Sewell, NJ. Experience our exceptional cleaning and alteration services.",
+    "Welcome to Spotless Cleaners, your destination for top-quality dry cleaners in Sewell, NJ. Experience our exceptional cleaning and alteration services.",
   keywords:
     "Spotless Cleaners, Deptford, Sewell, NJ, Hurffville, dry cleaners, dry cleaning, laundry, alteration, repair, services",
   twitter: {
