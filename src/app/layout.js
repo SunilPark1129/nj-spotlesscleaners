@@ -8,11 +8,14 @@ import Footer from "@/components/footer/Footer";
 const poppins = Poppins({ weight: ["400", "700", "900"], subsets: ["latin"] });
 
 export const metadata = {
-  title: { default: "Spotless Cleaners", template: "%s | Spotless Cleaners" },
+  title: {
+    default: "Spotless Cleaners Sewell NJ",
+    template: "%s | Spotless Cleaners Sewell NJ",
+  },
   description:
-    "Welcome to Spotless Cleaners, your estination for top-quality dry cleaners in Sewell, NJ. Experience our exceptional cleaning and alteration services.",
+    "Welcome to Spotless Cleaners, your estination for top-quality dry cleaners in 1898 Hurffville Rd, Sewell, NJ. Experience our exceptional cleaning and alteration services.",
   keywords:
-    "Spotless Cleaners, Deptford, Sewell, NJ, dry cleaners, dry cleaning, laundry, alteration, repair, services",
+    "Spotless Cleaners, Deptford, Sewell, NJ, Hurffville, dry cleaners, dry cleaning, laundry, alteration, repair, services",
   twitter: {
     card: "summary_large_image",
   },
