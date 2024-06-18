@@ -35,12 +35,12 @@ function Card({ title, desc, name }) {
 
   return (
     <article className={styles.card} id={name} ref={targetRef}>
-      <div className={styles.cardTitle} onClick={clickHandler}>
+      <button className={styles.cardTitle} onClick={clickHandler}>
         <h3>{title}</h3>
         <div className={`${styles.arrow} ${hasOpened && styles.arrowActive}`}>
           {arrowDown}
         </div>
-      </div>
+      </button>
       {hasOpened && (
         <div
           className={`${styles.cardDesc} ${hasOpened && styles.cardDescActive}`}
