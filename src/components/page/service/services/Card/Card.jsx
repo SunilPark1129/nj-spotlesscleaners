@@ -41,15 +41,13 @@ function Card({ title, desc, name }) {
           {arrowDown}
         </div>
       </button>
-      {hasOpened && (
-        <div
-          className={`${styles.cardDesc} ${hasOpened && styles.cardDescActive}`}
-        >
-          <p className={`${hasClickedLink && styles.highlighted}`}>
-            <span>{desc}</span>
-          </p>
-        </div>
-      )}
+      <div
+        className={`${styles.cardDesc} ${hasOpened && styles.cardDescActive}`}
+      >
+        <p className={`${hasClickedLink && styles.highlighted}`}>
+          <span>{desc}</span>
+        </p>
+      </div>
     </article>
   );
 }
