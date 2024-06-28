@@ -25,7 +25,7 @@ function LinkSupport() {
             </div>
             <div className={styles.textContainer}>
               <p>{desc}</p>
-              <Link href={link}>Read more</Link>
+              <Link href={link}>Learn more in {title.toLowerCase()}</Link>
             </div>
           </article>
         ))}

@@ -83,9 +83,10 @@
 
 .card a {
   margin-top: auto;
-  color: #0000ee;
+  color: #5353f0;
   width: max-content;
   border-radius: 4px;
+  text-decoration: underline;
 }
 
 .card a:hover {
