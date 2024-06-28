@@ -21,14 +21,3 @@
 .highlighted span {
   background-color: yellow;
 }
-
-@media (max-width: 500px) {
-  .cardTitle {
-    justify-content: space-between;
-    margin-right: inherit;
-  }
-
-  .cardDesc {
-    padding: 1em 1.5em;
-  }
-}
