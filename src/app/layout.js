@@ -32,6 +32,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <GoogleAnalytics gaId="G-4CE2H85VN6" />
+        <link
+          rel="canonical"
+          href="https://example.com/blog/original-post"
+          key="canonical"
+        />
       </head>
       <body className={poppins.className}>
         <Navbar />
