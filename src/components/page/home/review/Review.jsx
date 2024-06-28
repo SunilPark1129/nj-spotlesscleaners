@@ -12,7 +12,7 @@ function Review() {
     <section className={styles.container} id="reviews">
       <div className={styles.head}>
         <div className={styles.title}>
-          <h1>What Our Customers Say</h1>
+          <h2>What Our Customers Say</h2>
           <p>
             Read the wonderful feedback our customers have shared about us on
             Google Reviews.
@@ -27,9 +27,9 @@ function Review() {
         {list.map(({ id, user, desc }, idx) => {
           if (!hasOpened && idx >= 2) return null;
           return (
-            <div className={styles.card} key={id}>
+            <article className={styles.card} key={id}>
               <div className={styles.top}>
-                <p className={styles.user}>{user}</p>
+                <h3 className={styles.user}>{user}</h3>
                 <div className={styles.rating}>
                   <div className={styles.star}>{starSVG}</div>
                   <div className={styles.star}>{starSVG}</div>
@@ -44,7 +44,7 @@ function Review() {
                 </div>
                 <p>{desc}</p>
               </div>
-            </div>
+            </article>
           );
         })}
       </div>
