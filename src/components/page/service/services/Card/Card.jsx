@@ -6,7 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { arrowDown } from "@/lib/svgData";
 
 function Card({ title, desc, name }) {
-  const [hasOpened, setHasOpened] = useState(false);
+  const [hasOpened, setHasOpened] = useState(true);
   const [isMounted, setIsMounted] = useState(false);
   const [hasClickedLink, setHasClickedLink] = useState(false);
   const searchParams = useSearchParams();
