@@ -37,7 +37,10 @@ function Card({ title, desc, name }) {
     <article className={styles.card} id={name} ref={targetRef}>
       <button className={styles.cardTitle} onClick={clickHandler}>
         <h3>{title}</h3>
-        <div className={`${styles.arrow} ${hasOpened && styles.arrowActive}`}>
+        <div
+          className={`${styles.arrow} ${hasOpened && styles.arrowActive}`}
+          aria-hidden={!hasOpened}
+        >
           {arrowDown}
         </div>
       </button>
