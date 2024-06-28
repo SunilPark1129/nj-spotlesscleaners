@@ -3,10 +3,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./card.module.css";
 import { useSearchParams } from "next/navigation";
-import { arrowDown } from "@/lib/svgData";
 
 function Card({ title, desc, name }) {
-  const [hasOpened, setHasOpened] = useState(true);
+  const [hasOpened, setHasOpened] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const [hasClickedLink, setHasClickedLink] = useState(false);
   const searchParams = useSearchParams();
@@ -34,24 +33,21 @@ function Card({ title, desc, name }) {
   }, [isMounted]);
 
   return (
-    <article className={styles.card} id={name} ref={targetRef}>
-      <button className={styles.cardTitle} onClick={clickHandler}>
-        <h3>{title}</h3>
-        <div
-          className={`${styles.arrow} ${hasOpened && styles.arrowActive}`}
-          aria-hidden={!hasOpened}
-        >
-          {arrowDown}
-        </div>
-      </button>
-      <div
-        className={`${styles.cardDesc} ${hasOpened && styles.cardDescActive}`}
+    <details
+      className={styles.card}
+      id={name}
+      ref={targetRef}
+      onClick={clickHandler}
+      open={hasClickedLink}
+    >
+      <summary>{title}</summary>
+      <p
+        className={`${hasClickedLink && styles.highlighted}`}
+        aria-hidden={!hasOpened}
       >
-        <p className={`${hasClickedLink && styles.highlighted}`}>
-          <span>{desc}</span>
-        </p>
-      </div>
-    </article>
+        <span>{desc}</span>
+      </p>
+    </details>
   );
 }
 
