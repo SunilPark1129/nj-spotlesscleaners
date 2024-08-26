@@ -3,7 +3,7 @@
   margin: auto;
   position: relative;
   width: 100%;
-  aspect-ratio: auto 14/3;
+  /* aspect-ratio: auto 14/3; */
   min-height: 20rem;
 }
 
