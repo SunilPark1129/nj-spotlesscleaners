@@ -3,17 +3,10 @@
   margin: auto;
   position: relative;
   width: 100%;
-  aspect-ratio: 14/3;
+  /* aspect-ratio: 14/3; */
+  padding-bottom: 16%;
   min-height: 20rem;
 }
-
-/* @supports (aspect-ratio: 16 / 9) {
-  .container {
-    aspect-ratio: initial;
-    padding-bottom: 16%;
-    display: none;
-  }
-} */
 
 .imgContainer {
   position: absolute;
@@ -23,11 +16,4 @@
 
 .imgContainer img {
   object-fit: cover;
-}
-
-@media (max-width: 1240px) {
-  .imgContainer {
-    right: 0%;
-    left: auto;
-  }
 }
