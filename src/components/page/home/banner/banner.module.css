@@ -9,6 +9,7 @@
 
 @supports not (aspect-ratio: 16 / 9) {
   .container {
+    aspect-ratio: unset;
     padding-bottom: 16%;
   }
 }
