@@ -7,7 +7,7 @@
   min-height: 20rem;
 }
 
-@supports not (aspect-ratio: 16 / 9) {
+@supports (aspect-ratio: 16 / 9) {
   .container {
     aspect-ratio: initial;
     padding-bottom: 16%;
