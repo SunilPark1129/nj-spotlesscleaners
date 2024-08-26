@@ -3,17 +3,17 @@
   margin: auto;
   position: relative;
   width: 100%;
-  aspect-ratio: auto 14/3;
+  aspect-ratio: 14/3;
   min-height: 20rem;
 }
 
-@supports (aspect-ratio: 16 / 9) {
+/* @supports (aspect-ratio: 16 / 9) {
   .container {
     aspect-ratio: initial;
     padding-bottom: 16%;
     display: none;
   }
-}
+} */
 
 .imgContainer {
   position: absolute;
