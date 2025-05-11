@@ -28,19 +28,5 @@ Developed using Next.js by Sunil Park - 05/24/24
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Installation
-1. Clone the repo
-```
-git clone https://github.com/SunilPark1129/nj-spotlesscleaners.git
-```
-2. Install
-```
-npm install
-```
-2. run the website
-```
-npm dev start
-```
-
 ## Project Status
 Completed
