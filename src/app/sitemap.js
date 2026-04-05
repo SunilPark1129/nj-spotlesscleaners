@@ -3,7 +3,7 @@ export default async function sitemap() {
     {
       url: `https://spotlesscleaners-nj.com/`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "yearly",
       priority: 1.0,
     },
     {
@@ -15,7 +15,7 @@ export default async function sitemap() {
     {
       url: `https://spotlesscleaners-nj.com/service`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "yearly",
       priority: 0.8,
     },
     {
