@@ -16,7 +16,7 @@ export const metadata = {
   description:
     "Top-rated dry cleaners in Sewell, NJ. Serving Sewell, Deptford, and Washington Township. We offer professional dry cleaning, laundry, and expert alteration services at Spotless Cleaners.",
   keywords:
-    "Top-quality dry cleaners in Sewell, NJ. Proudly serving Sewell, Deptford, and Washington Township. Spotless Cleaners offers professional dry cleaning, laundry, and expert alteration services.",
+    "Spotless Cleaners, Sewell dry cleaners, Deptford laundry, Washington Township alterations, dry cleaning NJ, professional laundry Sewell",
   twitter: {
     card: "summary_large_image",
   },
