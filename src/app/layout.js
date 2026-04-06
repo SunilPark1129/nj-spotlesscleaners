@@ -14,9 +14,9 @@ export const metadata = {
     template: "%s | Spotless Cleaners Sewell NJ",
   },
   description:
-    "Welcome to Spotless Cleaners, your destination for top-quality dry cleaners in Sewell, NJ. Experience our exceptional cleaning and alteration services.",
+    "Top-rated dry cleaners in Sewell, NJ. Serving Sewell, Deptford, and Washington Township. We offer professional dry cleaning, laundry, and expert alteration services at Spotless Cleaners.",
   keywords:
-    "Spotless Cleaners, Deptford, Sewell, NJ, Hurffville, dry cleaners, dry cleaning, laundry, alteration, repair, services",
+    "Top-quality dry cleaners in Sewell, NJ. Proudly serving Sewell, Deptford, and Washington Township. Spotless Cleaners offers professional dry cleaning, laundry, and expert alteration services.",
   twitter: {
     card: "summary_large_image",
   },
@@ -42,8 +42,16 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "DryCleaningOrLaundry",
             name: "Spotless Cleaners",
+            hasMap: "https://www.google.com/maps?cid=15186074423484475197",
             image: "https://spotlesscleaners-nj.com/sq-logo.png",
-            "@id": "https://spotlesscleaners-nj.com",
+            "@id": "https://spotlesscleaners-nj.com/#drycleaner",
+            areaServed: [
+              { "@type": "City", name: "Sewell" },
+              { "@type": "City", name: "Deptford" },
+              { "@type": "City", name: "Washington Township" },
+              { "@type": "City", name: "Hurffville" },
+            ],
+            publicAccess: true,
             url: "https://spotlesscleaners-nj.com",
             telephone: "+1-856-227-1112",
             address: {
