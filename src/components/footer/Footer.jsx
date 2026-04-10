@@ -43,7 +43,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.copyright}>
-        <p>&copy; 2024 Spotless Cleaners. All rights reserved.</p>
+        <p>&copy; 2026 Spotless Cleaners. All rights reserved.</p>
       </div>
     </footer>
   );
