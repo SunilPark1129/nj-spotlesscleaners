@@ -25,7 +25,7 @@ function Story() {
             From delicate fabrics to tough stains, we handle each item with care
             and precision to ensure your clothes receive the best treatment
             possible. We are grateful for the continued support and love from
-            our customers throughout the years.
+            our customers throughout the&nbsp;years.
           </p>
           <p>
             At Spotless Cleaners, we believe in going above and beyond to meet
@@ -36,7 +36,7 @@ function Story() {
             why we strive to exceed expectations with every visit. Trust
             Spotless Cleaners for all your cloth care needs, and experience the
             difference that dedication and expertise can make. Thank you for
-            choosing Spotless Cleaners, where quality meets excellence.
+            choosing Spotless Cleaners, where quality meets&nbsp;excellence.
           </p>
         </div>
       </div>

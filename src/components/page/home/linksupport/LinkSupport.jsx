@@ -7,13 +7,14 @@ function LinkSupport() {
     <section className={styles.container}>
       <div className={styles.title}>
         <h1>
-          Explore Spotless Cleaners in<br />
+          Explore Spotless Cleaners in
+          <br />
           Sewell, NJ
         </h1>
         <p>
           Experience premium dry cleaning and expert alterations in Sewell.
           Simple drop-offs, fast turnaround, and a 100% dedication to quality
-          fabric care for the Deptford and Washington Township areas.
+          fabric care for the Deptford and Washington Township&nbsp;areas.
         </p>
       </div>
       <div className={styles.line}></div>

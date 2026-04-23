@@ -17,7 +17,7 @@ export default function Commitment() {
             using the latest technology and eco-friendly practices. Our
             commitment is to deliver the highest quality services with a
             personal touch, ensuring that every piece of clothing is treated
-            with the utmost care and attention.
+            with the utmost care and&nbsp;attention.
           </p>
 
           <p>
@@ -28,7 +28,7 @@ export default function Commitment() {
             Spotless Cleaners is your trusted partner for all your dry cleaning
             and clothes care needs. Our ultimate goal is to maintain and enhance
             the trust our customers have placed in us by consistently delivering
-            exceptional results and unparalleled customer service.
+            exceptional results and unparalleled customer&nbsp;service.
           </p>
         </div>
       </div>
