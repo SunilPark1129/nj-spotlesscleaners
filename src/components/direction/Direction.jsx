@@ -12,7 +12,7 @@ function Direction() {
           <h3>Find Us Easily</h3>
           <p>
             Click the button below to open Google Maps and get directions to
-            Spotless Cleaners.
+            Spotless&nbsp;Cleaners.
           </p>
           <Link href={"https://maps.app.goo.gl/RoVZjLAPD8mM21ug8"}>
             <div className={styles.svgContainer}>{gpsSVG}</div>
