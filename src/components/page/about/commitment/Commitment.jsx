@@ -11,11 +11,11 @@ export default function Commitment() {
         </div>
         <div className={styles.textContainer}>
           <p>
-            At Spotless Cleaners, our goal is to provide unparalleled clothes
-            care that leaves our customers delighted with every visit. We aim to
-            set the standard for excellence in the dry cleaning industry by
-            using the latest technology and eco-friendly practices. Our
-            commitment is to deliver the highest quality services with a
+            At Spotless&nbsp;Cleaners, our goal is to provide unparalleled
+            clothes care that leaves our customers delighted with every visit.
+            We aim to set the standard for excellence in the dry cleaning
+            industry by using the latest technology and eco-friendly practices.
+            Our commitment is to deliver the highest quality services with a
             personal touch, ensuring that every piece of clothing is treated
             with the utmost care and&nbsp;attention.
           </p>
